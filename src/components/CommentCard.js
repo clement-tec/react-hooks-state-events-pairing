@@ -4,7 +4,7 @@ function CommentCard (props) {
     console.log(props)
     return (
         <div>
-            <h2>{props.user}</h2>
+            <h3>{props.user}</h3>
             <p>{props.comment}</p>
         </div>
     )
